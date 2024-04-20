@@ -105,9 +105,10 @@ p {
 }
 
 .img-main {
-    margin: 0 auto;
-    width: 120px;
+    margin: 0 auto 0.8em;
+    width: 180px;
     border-radius: 50%;
+
 }
 
 .main-content p, form {
