@@ -1,4 +1,4 @@
-# c3rbapTB
+# Product Splash Page
 
 Quick start:
 
