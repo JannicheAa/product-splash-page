@@ -1,6 +1,6 @@
 body {
     font-family: "Overpass", sans-serif;
-    color: #404040;
+    color: #D9D9D9;
     background-color: #2C2C2E;
     margin: 0;
 }
@@ -37,8 +37,8 @@ h2 {
 }
 
 p {
-    font-size: 1.125rem;
-    color: #EAEAEA;
+    font-size: 1rem;
+    color: #;
     line-height: 1.35;
 }
 .beta-text { 
@@ -136,14 +136,13 @@ input {
 }
 
 input:focus {
-    border-color: #8a71ec;
-    background-color: #e6e8ec;
+    border-color: #FAA706;
     outline: none;
 }
 
 .upload-file {
     font-family: inherit;
-    color: ##404040;
+    color: #858585;
 }
 
 .btn {
@@ -162,8 +161,7 @@ input:focus {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    color: #473494;
-    background-color:#b7a7f6;
+    background-color:#FA8A06;
 }
 /* =================
     Media queries 
