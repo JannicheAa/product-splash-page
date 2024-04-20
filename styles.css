@@ -38,7 +38,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    color: #;
+    color: #EAEAEA;
     line-height: 1.35;
 }
 .beta-text { 
@@ -146,7 +146,6 @@ input:focus {
 }
 
 .btn {
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
     border: none;
@@ -154,8 +153,39 @@ input:focus {
     cursor: pointer;
 }
 
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-btn {
+    border: 1px solid #212121;
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-color: #39393B;
+    padding: 7px 16px 6px;
+    font-family: inherit;
+
+  }
+  
+  /* Skjul standard filopplastingsknapp */
+  input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+
 .btn-primary {
     color: #212121;
+    text-transform: uppercase;
     background-color:#FAA706 ;
     margin-top: 1em;
 }
