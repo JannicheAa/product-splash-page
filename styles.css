@@ -1,6 +1,7 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Overpass", sans-serif;
     color: #404040;
+    background-color: #2C2C2E;
     margin: 0;
 }
 
@@ -8,20 +9,36 @@ body {
     Typography 
    ================= */
 
+/*<uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+//.overpass-<uniquifier> {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
-    text-shadow: 0 2px  #816fca;
+    text-shadow: 2px 2px 4px #212121;
     margin: 0;
 }
 
 h2 {
     font-size: 2.25rem;
+    color: #EAEAEA;
     margin: 0.167em 0;
+}
+
+.dot {
+    color: #FAA706;
 }
 
 p {
     font-size: 1.125rem;
+    color: #EAEAEA;
     line-height: 1.35;
 }
 .beta-text { 
@@ -31,7 +48,7 @@ p {
 }
 
 .subheading {
-    color: #575757;
+    color: #ABABAB;
     margin-bottom: 0.5em;
     font-weight: 900;
     text-transform: uppercase;
@@ -69,8 +86,8 @@ p {
    ================= */
 
 .intro { 
-    color: #fff;
-    background:#9480e4 url("images/intro-bg.png");
+    color: #EAEAEA;
+    background:#9480e4 url("images/bakgrunn.png");
     background-size: cover;
     text-align: center;
     justify-content: space-between;
@@ -113,7 +130,8 @@ input, .btn {
 }
 
 input {
-    border: 2px solid #d1d5db;
+    border: 1px solid #212121;
+    background-color: #39393B;
     padding: 0.5em;
 }
 
@@ -121,6 +139,11 @@ input:focus {
     border-color: #8a71ec;
     background-color: #e6e8ec;
     outline: none;
+}
+
+.upload-file {
+    font-family: inherit;
+    color: ##404040;
 }
 
 .btn {
@@ -133,8 +156,8 @@ input:focus {
 }
 
 .btn-primary {
-    color: white;
-    background-color:#8a71ec ;
+    color: #212121;
+    background-color:#FAA706 ;
     margin-top: 1em;
 }
 
