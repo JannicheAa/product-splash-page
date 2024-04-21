@@ -61,6 +61,7 @@ p {
     text-transform: uppercase;
     padding-top: 0.25em;
     border-top: 5px solid;
+    border-color: #FAA706;
     order: -1;
     margin: 0 auto;
 }
@@ -88,7 +89,7 @@ p {
 
 .intro { 
     color: #EAEAEA;
-    background:#9480e4 url("images/bakgrunn.png");
+    background:#252526 url("images/bakgrunn.png");
     background-size: cover;
     text-align: center;
     justify-content: space-between;
