@@ -1,4 +1,5 @@
 # Product Splash Page
+Can be found here: https://performance-coach.netlify.app/
 
 Quick start:
 
